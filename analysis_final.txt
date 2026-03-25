@@ -1,0 +1,17 @@
+﻿Analyzing voting...                                             
+
+warning - The value of the field '_localAuth' isn't used - lib\core\utils\biometric_service.dart:33:29 - unused_field
+warning - The value of the field '_secureStorage' isn't used - lib\core\utils\biometric_service.dart:34:30 - unused_field
+warning - The value of the field '_failedAttemptsKey' isn't used - lib\core\utils\biometric_service.dart:36:23 - unused_field
+warning - The value of the field '_lockTimeKey' isn't used - lib\core\utils\biometric_service.dart:37:23 - unused_field
+warning - The value of the field '_lockDurationMinutes' isn't used - lib\core\utils\biometric_service.dart:39:20 - unused_field
+warning - The declaration '_incrementFailedAttempts' isn't referenced - lib\core\utils\biometric_service.dart:72:16 - unused_element
+warning - The declaration '_resetFailedAttempts' isn't referenced - lib\core\utils\biometric_service.dart:75:16 - unused_element
+warning - Unused import: 'dart:typed_data' - lib\core\utils\encryption_service.dart:2:8 - unused_import
+warning - The value of the local variable 'size' isn't used - lib\features\auth\presentation\screens\biometric_auth_screen.dart:161:11 - unused_local_variable
+warning - The value of the local variable 'size' isn't used - lib\features\auth\presentation\screens\otp_verification_screen.dart:154:11 - unused_local_variable
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\voting\presentation\screens\party_list_screen.dart:352:62 - sized_box_for_whitespace
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\voting\presentation\screens\party_list_screen.dart:358:69 - sized_box_for_whitespace
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\voting\presentation\screens\party_list_screen.dart:395:64 - sized_box_for_whitespace
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\voting\presentation\screens\party_list_screen.dart:401:71 - sized_box_for_whitespace
+

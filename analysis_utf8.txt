@@ -1,0 +1,30 @@
+﻿Analyzing voting...                                             
+
+warning - The value of the field '_localAuth' isn't used - lib\core\utils\biometric_service.dart:33:29 - unused_field
+warning - The value of the field '_secureStorage' isn't used - lib\core\utils\biometric_service.dart:34:30 - unused_field
+warning - The value of the field '_failedAttemptsKey' isn't used - lib\core\utils\biometric_service.dart:36:23 - unused_field
+warning - The value of the field '_lockTimeKey' isn't used - lib\core\utils\biometric_service.dart:37:23 - unused_field
+warning - The value of the field '_lockDurationMinutes' isn't used - lib\core\utils\biometric_service.dart:39:20 - unused_field
+warning - The declaration '_incrementFailedAttempts' isn't referenced - lib\core\utils\biometric_service.dart:72:16 - unused_element
+warning - The declaration '_resetFailedAttempts' isn't referenced - lib\core\utils\biometric_service.dart:75:16 - unused_element
+warning - Unused import: 'dart:typed_data' - lib\core\utils\encryption_service.dart:2:8 - unused_import
+   info - The imported package 'cloud_firestore' isn't a dependency of the importing package - lib\features\auth\data\models\voter_model.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:cloud_firestore/cloud_firestore.dart' - lib\features\auth\data\models\voter_model.dart:1:8 - uri_does_not_exist
+  error - The name 'Timestamp' isn't a type, so it can't be used in an 'as' expression - lib\features\auth\data\models\voter_model.dart:20:41 - cast_to_non_type
+  error - The name 'Timestamp' isn't a type, so it can't be used in an 'as' expression - lib\features\auth\data\models\voter_model.dart:22:36 - cast_to_non_type
+  error - Undefined name 'Timestamp' - lib\features\auth\data\models\voter_model.dart:33:21 - undefined_identifier
+  error - Undefined name 'Timestamp' - lib\features\auth\data\models\voter_model.dart:34:41 - undefined_identifier
+warning - The value of the local variable 'size' isn't used - lib\features\auth\presentation\screens\biometric_auth_screen.dart:161:11 - unused_local_variable
+warning - The value of the local variable 'size' isn't used - lib\features\auth\presentation\screens\otp_verification_screen.dart:154:11 - unused_local_variable
+  error - The method 'CachedNetworkImage' isn't defined for the type '_PhoneLoginScreenState' - lib\features\auth\presentation\screens\phone_login_screen.dart:132:29 - undefined_method
+   info - The imported package 'cloud_firestore' isn't a dependency of the importing package - lib\features\voting\data\models\party_model.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:cloud_firestore/cloud_firestore.dart' - lib\features\voting\data\models\party_model.dart:1:8 - uri_does_not_exist
+   info - The imported package 'cloud_firestore' isn't a dependency of the importing package - lib\features\voting\data\models\vote_model.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:cloud_firestore/cloud_firestore.dart' - lib\features\voting\data\models\vote_model.dart:1:8 - uri_does_not_exist
+  error - The name 'Timestamp' isn't a type, so it can't be used in an 'as' expression - lib\features\voting\data\models\vote_model.dart:16:40 - cast_to_non_type
+  error - Undefined name 'Timestamp' - lib\features\voting\data\models\vote_model.dart:25:20 - undefined_identifier
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\voting\presentation\screens\party_list_screen.dart:352:62 - sized_box_for_whitespace
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\voting\presentation\screens\party_list_screen.dart:358:69 - sized_box_for_whitespace
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\voting\presentation\screens\party_list_screen.dart:395:64 - sized_box_for_whitespace
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\voting\presentation\screens\party_list_screen.dart:401:71 - sized_box_for_whitespace
+
